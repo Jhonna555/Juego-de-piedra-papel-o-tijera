@@ -16,3 +16,15 @@ def determinar_ganador(jugador, computadora):
         return "Ganaste"
     else:
         return "Perdiste"
+
+# Define la función principal para ejecutar el juego
+def jugar():
+    print("¡Bienvenido al juego de Piedra, Papel o Tijera!")
+    while True:
+        # Elección del usuario
+        jugador = input("Elige piedra, papel o tijera: ").strip().lower()
+        
+        # Validar entrada del usuario
+        if jugador not in ["piedra", "papel", "tijera"]:
+            print("Entrada no válida. Por favor elige entre piedra, papel o tijera.")
+            continue
