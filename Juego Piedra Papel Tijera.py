@@ -28,3 +28,21 @@ def jugar():
         if jugador not in ["piedra", "papel", "tijera"]:
             print("Entrada no válida. Por favor elige entre piedra, papel o tijera.")
             continue
+        
+        # Elección de la computadora
+        computadora = obtener_eleccion_computadora()
+        print(f"La computadora eligió: {computadora}")
+        
+        # Determinación del ganador
+        resultado = determinar_ganador(jugador, computadora)
+        print(f"Resultado: {resultado}")
+        
+        # Pregunta si desea jugar otra vez
+        repetir = input("¿Quieres jugar otra vez? (sí/no): ").strip().lower()
+        if repetir not in ["sí", "si"]:
+            print("Fin del juego. ¡Gracias por jugar!")
+            break
+
+# Iniciar el juego
+if __name__ == "__main__":
+    jugar()
