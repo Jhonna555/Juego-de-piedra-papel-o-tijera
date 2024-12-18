@@ -68,6 +68,7 @@ Fin del juego. ¡Gracias por jugar!
 - **Integrante 1:** Jhonnatan Francisco Salazar Cadena
 - **Institución:** Universidad Internacional del Ecuador
 - **Carrera:** Ingeniería en Software Modalidad En Línea
+- **Materia:** Lógica de programación
 - **Fecha:** 18 de diciembre del 2024
 
 ## Tecnologías utilizadas
